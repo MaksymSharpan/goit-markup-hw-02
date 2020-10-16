@@ -1,0 +1,20 @@
+.logo {
+  color: black;
+}
+.web {
+  color: #2196f3;
+}
+.contacts {
+  color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+.site-nav {
+  color: black;
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
