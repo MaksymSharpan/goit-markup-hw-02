@@ -4,41 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page">
     <!--ШАПКА САЙТА-->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="./index.html"> WebStudio </a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="web">Web</span>Studio
+        </a>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contacts-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:380961111111" class="contacts-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--УНИКАЛЬНЫЙ КОНТЕНТ-->
     <main>
       <ul>
-        <li><button>Все</button></li>
-        <li><button>Веб-сайты</button></li>
-        <li><button>Приложения</button></li>
-        <li><button>Дизайн</button></li>
-        <li><button>Маркетинг</button></li>
+        <li><button class="button-categories">Все</button></li>
+        <li><button class="button-categories">Веб-сайты</button></li>
+        <li><button class="button-categories">Приложения</button></li>
+        <li><button class="button-categories">Дизайн</button></li>
+        <li><button class="button-categories">Маркетинг</button></li>
       </ul>
 
       <section>
         <!--заголовок h1 будет скрыт-->
-        <h1>Портфолио</h1>
+        <h1 class="section-ghost">Портфолио</h1>
         <ul>
           <li>
             <img src="./images/portfolio1.jpg" alt="Технокряк" width="370" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title-name">Технокряк</h2>
+            <p class="categories">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -46,8 +55,8 @@
               alt="Постер New Orlean vs Golden Star"
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="title-name">Постер New Orlean vs Golden Star</h2>
+            <p class="categories">Дизайн</p>
           </li>
           <li>
             <img
@@ -55,18 +64,18 @@
               alt="Ресторан Seafood"
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <h2 class="title-name">Ресторан Seafood</h2>
+            <p class="categories">Приложение</p>
           </li>
           <li>
             <img src="./images/portfolio4.jpg" alt="Проект Prime" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="title-name">Проект Prime</h2>
+            <p class="categories">Маркетинг</p>
           </li>
           <li>
             <img src="./images/portfolio5.jpg" alt="Проект Boxes" width="370" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="title-name">Проект Boxes</h2>
+            <p class="categories">Приложение</p>
           </li>
           <li>
             <img
@@ -74,8 +83,8 @@
               alt="Inspiration has no Borders"
               width="370"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title-name">Inspiration has no Borders</h2>
+            <p class="categories">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -83,13 +92,13 @@
               alt="Издание Limited Edition"
               width="370"
             />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="title-name">Издание Limited Edition</h2>
+            <p class="categories">Дизайн</p>
           </li>
           <li>
             <img src="./images/portfolio8.jpg" alt="Проект LAB" width="370" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="title-name">Проект LAB</h2>
+            <p class="categories">Маркетинг</p>
           </li>
           <li>
             <img
@@ -97,18 +106,26 @@
               alt="Growing Business"
               width="370"
             />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="title-name">Growing Business</h2>
+            <p class="categories">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <h2><a href="./index.html"> WebStudio </a></h2>
+      <a href="./index.html" class="logo"
+        ><span class="web">Web</span>Studio
+      </a>
       <ul>
         <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contacts-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:380961111111" class="contacts-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </footer>
   </body>

@@ -1,20 +1,123 @@
+/* основной цвет текст #212121; */
+/* вторичный цвет текст #757575 */
+/* акцент цвет #2196F3 */
+/* акцент цвет кнопка #FFFFFF */
+/* цвет футер контакты текст rgba(255, 255, 255, 0.6) */
+/* цвет наша команда фон #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.page {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+/* LOGOTYPE */
+
 .logo {
-  color: black;
+  color: #212121;
+  font-size: 26px;
 }
 .web {
   color: #2196f3;
 }
-.contacts {
+
+/* SITE-NAV */
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
   color: #757575;
+  font-size: 14px;
 }
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
-.site-nav {
-  color: black;
+
+/* HERO */
+
+/* SECTION FEATURES*/
+
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
 }
-.site-nav:hover,
-.site-nav:focus {
-  color: #2196f3;
+
+.section-ghost {
+  display: none;
 }
+
+.section-features {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.section-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+}
+.section-app {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.section-people {
+  font-size: 16px;
+}
+.section-work {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
+/* COMMAND */
+
+.section-command {
+  background-color: #f5f4fa;
+}
+
+/* BUTTON */
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* PORTFOLIO PAGE */
+
+/* BUTTON */
+.button-categories {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.button-categories:hover,
+.button-categories:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* MAIN */
+.title-name {
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+.categories {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+}
+
+/* FOOTER */
